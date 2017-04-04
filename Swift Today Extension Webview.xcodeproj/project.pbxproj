@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		649BE2501E940953007E4DD5 /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = 649BE24F1E940953007E4DD5 /* main.html */; };
+		64A9AB751E9431F3001FD97F /* widget.html in Resources */ = {isa = PBXBuildFile; fileRef = 649BE2521E940968007E4DD5 /* widget.html */; };
 		64B8FA301E93B68C00FEB08D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B8FA2F1E93B68C00FEB08D /* AppDelegate.swift */; };
 		64B8FA321E93B68C00FEB08D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B8FA311E93B68C00FEB08D /* ViewController.swift */; };
 		64B8FA351E93B68C00FEB08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B8FA331E93B68C00FEB08D /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		649BE24F1E940953007E4DD5 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+		649BE2521E940968007E4DD5 /* widget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = widget.html; sourceTree = "<group>"; };
 		64B8FA2C1E93B68C00FEB08D /* Swift Today Extension Webview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Today Extension Webview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B8FA2F1E93B68C00FEB08D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64B8FA311E93B68C00FEB08D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		64B8FA231E93B68C00FEB08D = {
 			isa = PBXGroup;
 			children = (
+				649BE24F1E940953007E4DD5 /* main.html */,
+				649BE2521E940968007E4DD5 /* widget.html */,
 				64B8FA2E1E93B68C00FEB08D /* Swift Today Extension Webview */,
 				64B8FA491E93C05E00FEB08D /* Today Extension */,
 				64B8FA461E93C05E00FEB08D /* Frameworks */,
@@ -212,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B8FA3A1E93B68C00FEB08D /* LaunchScreen.storyboard in Resources */,
+				649BE2501E940953007E4DD5 /* main.html in Resources */,
 				64B8FA371E93B68C00FEB08D /* Assets.xcassets in Resources */,
 				64B8FA351E93B68C00FEB08D /* Main.storyboard in Resources */,
 			);
@@ -221,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A9AB751E9431F3001FD97F /* widget.html in Resources */,
 				64B8FA4E1E93C05E00FEB08D /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +457,7 @@
 				64B8FA401E93B68C00FEB08D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64B8FA531E93C05E00FEB08D /* Build configuration list for PBXNativeTarget "Today Extension" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +466,7 @@
 				64B8FA551E93C05E00FEB08D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
